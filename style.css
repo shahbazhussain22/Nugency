@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+}
+/* Navbar */
+nav
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:white;
+    padding: 10px; 
+}
+.pages li a{
+    text-decoration: none; 
+    transition: text-decoration 10s;  
+    color: black;  
+    font-weight: 100;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.pages{
+
+    display: flex;
+    list-style: none;
+    font-size: large;
+}
+.pages li{
+    margin-left: 40px;
+}
+.active  {
+    text-decoration: underline;
+    color: #0077B5;
+    text-underline-offset: 8px;
+   
+}
+a.active {
+    color: #0077B5;
+   
+}
+
+.pages a:hover{
+
+text-decoration: underline;
+color: #0077B5;
+text-underline-offset: 8px;
+
+}
+.icons{
+    display: flex;
+    list-style: none;
+}
+.icons li{
+    margin-left: 10px;
+}
+.icons li a{
+    font-size: 35px;
+    color: #0077B5;
+}
+
+/* baner */
+
+.baner{
+  position: relative;
+  background: url('Images/Home-Banner-2.png') no-repeat center;
+  background-size:cover;
+  height: 450px;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+.baner-text{
+font-size: 20px;
+padding: 100px 0px 0px 30px;
+color: #0077B5;
+font-family: sans-serif;
+font-weight:lighter
+}
+
+.baner-text p{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color:#818891;
+  font-family: sans-serif;
+  font-weight: 100;
+  font-size:15px;
+}
+
+#search{
+
+  padding: 15px;
+  width: 500px;
+  border-radius: 5px;
+  margin-left: 30px;
+  border-color: transparent;
+  font-size: 20px;
+
+  
+}
+
+
+/* .submit{
+    padding:10px 15px;
+    margin-left: -125px;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: solid #0077B5;
+    border-radius: 4px;
+    color: white;
+    background-color: #0077B5;
+    font-family: sans-serif; */
+/* } */
+.submit:hover{
+
+    color: #0077B5;
+    background-color: white;
+}
+
+.search-bar{
+
+    display:inline;
+    
+    border: solid white;
+    background-color: white;
+    padding:20px 15px;
+    margin-left: 30px;
+    border-radius: 5px;
+
+
+}
+
+#search:focus-visible{
+outline: none;
+}
+
+.submit{
+    font-family: sans-serif;
+    text-decoration: none;
+    background-color: #0077B5;
+    padding: 10px 20px;
+    border: solid #0077B5;
+    border-radius: 4px;
+    color: white;
+
+}
+
+
+/* job catogries  */
+
+.Job-Categories, .featured-jobs{
+
+    text-align: center;
+    padding: 100px 0px 50px 0px;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+.nurse, .midwives, .healthcare{
+
+    display: flex;
+    border: 1px solid lightgray;
+    padding: 20px;
+    margin: 20px 40px;
+    border-radius: 10px;
+}
+
+.nurse a, .midwives a, .healthcare a{
+
+    font-size: 50px;
+    color: #0077B5;
+}
+.nurse-text, .midwives-text, .healthcare-text{
+    
+    padding-left: 20px;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+.nurse-text h3, .healthcare-text h3, .midwives-text h3{
+    font-weight: 100;
+    padding-bottom: 5px;
+}
+.nurse-text p, .midwives-text p, .healthcare-text p{
+    color: grey;
+}
+/* featured jobs  */
+
+
+
+
+
+
+
+/* register with us  */
+.register{
+
+    background-color:#F8F8F8;
+    padding: 70px 10px;
+    display:flex;
+    justify-content:space-between;
+}
+
+.register h1, .section-text h1 {
+    font-family: sans-serif;
+    font-weight: 100;
+    padding-bottom: 15px;
+}
+.resume a, .section-link a{
+
+    padding: 10px 20px;
+    background-color: #0077B5;
+    border:1px solid #0077B5;
+    text-decoration: none;
+    border-radius: 10px;
+    color: white;
+    
+}
+.resume a:hover{
+background-color:white ;
+color: #0077B5;
+} 
+.section-link a:hover{
+    background-color:white ;
+    color: #0077B5;
+
+}
+.resume{
+
+    padding-top: 10px;
+}
+
+
+/* section with picture and text */
+.section{
+
+    display: flex;
+    padding: 20px 30px;
+}
+
+.section-text{
+
+    padding-top: 100px;
+}
+
+.section-link{
+    padding-top: 80px;
+}
+
+
+
+/* bottom navbar  */
+.navbar2{
+
+    background-color:#262C3F;
+    padding: 60px 10px;
+  
+   
+}
+
+
+.navbar2 ul{
+display:flex;
+justify-content: space-around;
+list-style: none;
+}
+.navbar2 ul a{
+
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 100;
+    
+    
+}
+
+
+.navbar2 ul a:hover{
+text-decoration: underline;
+
+
+}
+
+
+/* footer  */
+
+
+hr{
+    color: #F8F8F8;
+    height: 0.3px;
+}
+.footer{
+
+    display: flex;
+    justify-content: space-between;
+    background-color: #262C3F;
+    padding: 0px 10px;
+    
+   
+}
+.footer p{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 100;
+    padding-top: 10px;
+    
+   
+}
+
+
+
+
+
+                                

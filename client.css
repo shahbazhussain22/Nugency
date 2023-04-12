@@ -1,0 +1,309 @@
+.section1 {
+    background-image: url(Images/Client-page-scaled.jpeg);
+    background-size: cover;
+    background-position: top;
+    height: 500px;
+    /* margin: auto; */
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 100px;
+
+}
+
+.section1 div {
+
+    margin: 0px 30px 30px 0px;
+    text-align: center;
+}
+
+.section1 h2 {
+    padding-bottom: 20px;
+    color: #044467;
+    line-height: 30px;
+    font-family: sans-serif;
+    padding-right: 60px;
+    background-color: rgb(243, 217, 184,0.5);
+    width: 1260px;
+
+}
+
+.heading h1 {
+    text-align: center;
+    font-size: 50px;
+    margin: 40px 0px;
+
+}
+
+
+/* section2 */
+
+.section2 h1 {
+
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #044467;
+    margin-bottom: 50px;
+}
+
+.section2-0 {
+
+    display: flex;
+    margin: 30px 30px 100px 30px;
+    justify-content: space-between;
+
+}
+
+.section2-1 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+
+}
+
+.section2-1 P {
+    text-align: justify;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #044467;
+    line-height: 20px;
+    word-spacing: 2px;
+
+}
+
+.section2-2 {
+    width: 50%;
+    text-align: right;
+}
+
+.section3{
+    margin-bottom: 100px;
+}
+.section3 h1 {
+
+    text-align: center;
+    font-size: 50px;
+    margin: 40px 0px;
+
+}
+
+.section3-1,
+.section3-2,
+.section3-3 {
+    display: flex;
+   text-align: center;
+}
+
+.section3-1 a,
+.section3-2 a,
+.section3-3 a {
+
+    padding-right: 10px;
+
+}
+
+.section3 a i {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.section3-0 {
+    margin-left: 270px;
+    margin-bottom: 100px;
+}
+.section3-0 h2{
+    font-size: 25px;
+    font-family:Sans-serif;
+}
+
+.section4-0{
+    display: flex;
+    justify-content: space-around;
+}
+.section4 h1{
+    text-align: center;
+    font-size: 50px;
+    margin: 40px 0px;
+}
+
+.section4 h3{
+    font-family: sans-serif;
+    font-weight: 300;
+
+}
+
+.section4-1, .section4-2, .section4-3{
+
+    
+    height: 150px;
+    width: 250px;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    padding: 40px 40px;
+}
+.section4-1 a,
+.section4-2 a,
+.section4-3 a {
+    font-size: 60px;
+    color: #2e71be;
+}
+
+.section4-0 h3{
+    font-size: 18px;
+    font-family:sans-serif;
+    padding-top: 30px;
+}
+.section4{
+    margin: 20px 0px 100px 0px;
+}
+
+
+
+
+.section5-0{
+    display: flex;
+    justify-content: space-around;
+}
+.section5 h1{
+    text-align: center;
+    font-size: 50px;
+    margin: 40px 0px;
+}
+
+.section5-1, .section5-2, .section5-3, .section5-4{
+
+    
+    height: 150px;
+    width: 300px;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    padding: 40px 40px;
+    
+}
+
+.section5-1 h3, .section5-2 h3, .section5-3 h3, .section5-4 h3{
+    font-family: sans-serif;
+    font-weight: 300;
+}
+.section5-1 a,
+.section5-2 a,
+.section5-3 a,
+.section5-4 a {
+    font-size: 25px;
+    color: #2e71be;
+    border-radius: 50%;
+    padding: 40px;
+    background-color:#f8f8f8;
+   
+}
+
+.section5-0 h3{
+    font-size: 18px;
+    font-family:sans-serif;
+    margin-top: 100px;
+}
+.section5 {
+    margin: 20px 0px 100px 0px;
+}
+
+.section6{
+    margin: 30px 30px 100px 30px;
+    font-family: sans-serif;
+}
+
+.section6 p{
+    color: #044467;
+    line-height: 25px;
+    word-spacing: 2px;
+    
+}
+
+.section6-1 p{
+    padding-bottom: 25px;
+    text-align: justify;
+    width: 90%;
+}
+
+.section6 h1{
+    text-align: center;
+    font-size: 50px;
+    margin: 40px 0px;
+}    
+
+.section6-0{
+    display: flex;
+}
+.section6-2-0{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.section6-1{
+    width: 50%;
+
+}
+.section6-2{
+    width: 50%;
+}
+.section6-2 img{
+   width: 60px;
+   height: 60px; 
+}
+.section6-2 p{
+    padding-left: 20px;
+}
+
+
+.form{
+
+    border:solid 0.4px #F0F5F7;
+    width:80%;
+    margin: auto;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    padding: 50px 30px;
+
+}
+
+.form h1{
+    text-align: center;
+    font-size: 30px;
+   
+}
+
+.input{
+   padding-top: 30px;
+}
+
+#name, #password, #email, #phone,#message{
+
+    width: 40%;
+    padding: 20px 12px;
+    border-radius: 5px;
+    background-color:#F0F5F7 ;
+    border: 1px solid #F0F5F7;
+    margin: 8px 0px;
+}
+
+#message{
+    width: 90%;
+}
+label{
+
+    font-size: 18px;
+    color: #818891;
+    margin-bottom: 100px;
+}
+
+#button{
+
+    padding: 15px 80px;
+    background-color: #1967D2;
+    color: white;
+    font-size: 15px;
+    border: solid #1967D2;
+    border-radius: 5px;
+
+}

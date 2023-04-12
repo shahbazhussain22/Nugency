@@ -1,0 +1,104 @@
+/* FAQ Banner Styling  */
+
+.faq-section{
+    width: 60%;
+    height: 100vh;
+    display: flex;
+    margin: auto;
+    margin-bottom: 500px;
+    
+}
+
+.accordion-item{
+border: 1px solid #F1F1F5;
+border-radius: 10px;
+margin-bottom: 10px;
+
+box-shadow: 10px black;
+}
+
+.accordion-link{
+    font-size: 1.2rem;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    font-family: sans-serif;
+    padding: 20px 10px ;
+    
+}
+
+.answer ul{
+    list-style-type: circle;
+}
+
+.accordion-link .fa-minus{
+    display: none;
+}
+
+.answer{
+    max-height: 0;
+    overflow: hidden;
+    position: relative;
+    transition: max-height 650ms;
+}
+
+.answer::before{
+
+    content: "";
+    position: absolute;
+    width: 0.9rem ;
+    height: 90%;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+
+}
+.answer ul{
+    padding: 2rem;
+    
+}
+
+.answer ul li{
+    color: #818891;
+    font-family: sans-serif;
+    margin-bottom: 15px;
+    
+}
+
+.accordion-item-close:target .answer{
+max-height: 20rem;
+display: block;
+
+}
+
+/* .accordion-item-open:target .answer{
+    max-height: 0rem;
+    display: none;
+    
+} */
+
+.accordion-item-open {
+    display: none;
+}
+
+/* .accordion-item-close:target .accordion-item-close{
+    display: none;
+    
+}
+
+.accordion-item-close:target .accordion-item-open{
+    display: block;
+} */
+
+.accordion-item:target .accordion-link .fa-plus{
+    display: none;
+}
+
+.accordion-item:target .accordion-link .fa-minus{
+    display: block;
+}
+
+hr{
+    border:1px solid #F1F1F5;
+}
